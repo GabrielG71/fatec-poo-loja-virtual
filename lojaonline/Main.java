@@ -21,10 +21,10 @@ public class Main {
     }
 
     // ------------------------------------------------------------------
-    // Etapa 1 — catálogo, pedidos e modalidades de entrega
+    // Etapa 1: catálogo, pedidos e modalidades de entrega
     // ------------------------------------------------------------------
     private static void etapa1() {
-        titulo("ETAPA 1 — Catálogo, pedidos e entregas");
+        titulo("ETAPA 1: Catálogo, pedidos e entregas");
 
         Categoria perifericos = new Categoria(1, "Periféricos");
         Categoria papelaria = new Categoria(2, "Papelaria");
@@ -51,7 +51,7 @@ public class Main {
             new RetiradaNaLoja()
         };
 
-        // E1-01: exemplo do enunciado — sobrecarga, repetição e polimorfismo
+        // E1-01: exemplo do enunciado (sobrecarga, repetição e polimorfismo)
         subtitulo("E1-01 Teclado + duas unidades de mouse");
         Pedido pedido = new Pedido();
         pedido.adicionarProduto(teclado);
@@ -220,10 +220,10 @@ public class Main {
     }
 
     // ------------------------------------------------------------------
-    // Etapa 2 — interfaces: rastreamento de remessas e devoluções
+    // Etapa 2: interfaces, rastreamento de remessas e devoluções
     // ------------------------------------------------------------------
     private static void etapa2() {
-        titulo("ETAPA 2 — Rastreamento de remessas e devoluções");
+        titulo("ETAPA 2: Rastreamento de remessas e devoluções");
 
         Categoria perifericos = new Categoria(1, "Periféricos");
         Produto teclado = new Produto(101, "Teclado", 120.0, perifericos);
